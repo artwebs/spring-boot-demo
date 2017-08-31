@@ -20,7 +20,7 @@ public class ApplicationConfigureAdapter extends WebMvcConfigurerAdapter{
   public InternalResourceViewResolver viewResolver(){
     InternalResourceViewResolver resolver = new InternalResourceViewResolver();
     resolver.setPrefix("WEB-INF/html/");
-    resolver.setPrefix(".html");
+    resolver.setSuffix(".jsp");
     return resolver;
   }
 
