@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @EnableAutoConfiguration
 public class SpringController{
-	@RequestMapping("/")
-	@ResponseBody
+  @RequestMapping("/")
+  @ResponseBody
   String home(){
     return "Hello world";
   }
